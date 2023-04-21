@@ -39,6 +39,13 @@
         }
         document.getElementById("output").value = loremIpsum;
       }
+
+      function copyText() {
+        var copyText = document.getElementById("output");
+        copyText.select();
+        document.execCommand("copy");
+        alert("Generated Text Copied!");
+      }
     </script>
   </head>
   <body>
@@ -57,7 +64,7 @@
       <button type="button" onclick="generateLoremIpsum()">Generate</button>
     </form>
     <div class="text-area-container">
-      <textarea id="output"></textarea>
+      <textarea onclick="copyText()" id="output"></textarea>
     </div>
   </body>
   <style>
