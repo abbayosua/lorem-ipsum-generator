@@ -37,8 +37,7 @@
             loremIpsum += word;
           }
         }
-        
-        document.getElementById("output").innerText = loremIpsum;
+        document.getElementById("output").value = loremIpsum;
       }
     </script>
   </head>
@@ -57,7 +56,15 @@
       <br>
       <button type="button" onclick="generateLoremIpsum()">Generate</button>
     </form>
-    <p id="output"></p>
+    <div class="text-area-container">
+      <textarea id="output"></textarea>
+    </div>
   </body>
+  <style>
+    #output {
+      width: 95vw;
+      height: 50vh;
+    }
+  </style>
 </html>
 
