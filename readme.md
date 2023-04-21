@@ -1,8 +1,9 @@
 # Creator: Abba Yosua
 
-This is my readme file for my GitHub repository. You can find my repository [here](https://github.com/abbayosua).
+This is my readme file for my GitHub repository. You can find my repositories [here](https://github.com/abbayosua).
 
 ## Lorem Ipsum Generator
+### No backend at all, only Javascript
 
 This repository contains a web application that generates Lorem Ipsum text based on the user's preferences for number of words, sentences, or characters.
 
